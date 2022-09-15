@@ -1,0 +1,74 @@
+                                        .body {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                            font-family: 'Times New Roman', Times, serif;
+                                            background-attachment: fixed;
+                                            background-color: rgb(245, 245, 220);
+                                            height: 100vh;
+                                            width: auto;
+                                        }
+                                        
+                                        user agent stylesheet a:-webkit-any-link {
+                                            color: -webkit-link;
+                                            cursor: pointer;
+                                            text-decoration: underline;
+                                        }
+                                        
+                                        .navbar {
+                                            width: 99%;
+                                            height: 3em;
+                                            background-color: black;
+                                            border-radius: 3em;
+                                            position: fixed;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            margin-top: 0.2em;
+                                            z-index: 10;
+                                        }
+                                        
+                                        .navbar h1 {
+                                            color: whitesmoke;
+                                            margin: auto 2.5em;
+                                            letter-spacing: 0.25em;
+                                            cursor: pointer;
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        }
+                                        
+                                        .navbar ul {
+                                            list-style: none;
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .navbar ul li {
+                                            margin: auto 2em;
+                                        }
+                                        
+                                        .navbar ul li a {
+                                            text-decoration: none;
+                                            color: whitesmoke;
+                                            font-size: 1.3em;
+                                            letter-spacing: 0.15em;
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        }
+                                        
+                                        .navbar ul li ::after {
+                                            content: ' ';
+                                            width: 0%;
+                                            background-color: whitesmoke;
+                                            height: 0.07em;
+                                            display: block;
+                                            transition: 0.75s;
+                                            margin: auto;
+                                        }
+                                        
+                                        .navbar ul li :hover::after {
+                                            width: 90%;
+                                        }
+                                        
+                                        .car0 {
+                                            height: auto;
+                                            width: 100%;
+                                        }

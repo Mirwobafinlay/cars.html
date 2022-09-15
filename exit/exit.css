@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.exitBG {
+    background-image: url(../images/chrysler3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.exitBG::before {
+    content: '';
+    width: auto;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.5);
+}
